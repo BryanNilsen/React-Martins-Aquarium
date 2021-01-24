@@ -1,8 +1,8 @@
 import { render, screen } from "@testing-library/react";
-import App from "./App";
+import { Nav } from "./components/Nav";
 
 test("renders nav", () => {
-  render(<App />);
+  render(<Nav />);
   const navText = screen.getByText(/Martin's Aquarium/i);
   expect(navText).toBeInTheDocument();
 });

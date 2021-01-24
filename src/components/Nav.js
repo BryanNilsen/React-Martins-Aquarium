@@ -1,5 +1,9 @@
 import React from "react";
 
 export const Nav = () => {
-  return <nav>Martin's Aquarium</nav>;
+  return (
+    <nav>
+      <span className="logo">Martin's Aquarium</span>
+    </nav>
+  );
 };

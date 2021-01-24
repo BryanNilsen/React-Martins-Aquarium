@@ -1,0 +1,11 @@
+.fishlist {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.fish {
+  min-width: 150px;
+  flex: 0 1 17%;
+}
